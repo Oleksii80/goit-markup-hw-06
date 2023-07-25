@@ -3,6 +3,7 @@
     max-width: 428px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .conteiner {
     max-width: 768px;
@@ -13,7 +14,21 @@
   .skills-item {
     width: calc((100% - 24px) / 2);
   }
+  .skills-title {
+    justify-content: flex-start;
+  }
+  .team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .team-list {
+    gap: 64px;
+  }
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
+
 @media screen and (min-width: 1158px) {
   .conteiner {
     max-width: 1158px;
@@ -30,5 +45,15 @@
   }
   .skills-icon {
     display: flex;
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .team-item {
+    width: calc((100% - 24 * 3 / 4));
   }
 }
