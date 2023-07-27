@@ -81,8 +81,16 @@
     gap: 24px;
     margin-bottom: 72px;
   }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+  }
+  .portfolio-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
-
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -156,5 +164,15 @@
   }
   .form-input {
     width: 264px;
+  }
+
+  .portfolio-list {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 48px 24px;
+  }
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
   }
 }

@@ -660,9 +660,9 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-item {
-  width: calc ((100% - 24px * 2) / 3);
-}
+/* .portfolio-item {
+   width: calc ((100% - 24px * 2) / 3); 
+} */
 
 .portfolio-item:hover .overlay-text {
   transform: translateY(0);
