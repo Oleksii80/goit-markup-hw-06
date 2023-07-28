@@ -144,32 +144,48 @@ body {
 /*----------HERO----------*/
 
 .hero {
-  width: 1440px;
+  /* width: 1440px; */
   margin: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  padding: 112px 0;
   background-color: var(--main-text-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mobile-2x.jpg);
+  }
 }
 
 .hero-title {
   color: #fff;
   text-align: center;
-  font-size: 56px;
+  font-size: 36px;
+  /* font-size: 56px; */
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.11;
+  /* line-height: 1.07; */
   letter-spacing: 0.02em;
   display: flex;
-  max-width: 496px;
+  max-width: 320px;
+  /* max-width: 496px; */
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
+  /* margin-bottom: 48px; */
 }
 
 .hero-btn {
@@ -257,6 +273,7 @@ body {
 
 /*----------Result----------*/
 .result {
+  display: none;
   background-color: #fff;
   padding-bottom: 120px;
 }
@@ -531,7 +548,7 @@ body {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 398px;
+  width: 320px;
   /* width: 264px; */
   height: 40px;
   border-radius: 4px;
@@ -650,7 +667,6 @@ body {
   display: flex;
   gap: 48px;
   flex-direction: column;
-  align-items: center;
   /* flex-wrap: wrap;
   display: flex;
   gap: 48px 24px; */
@@ -714,7 +730,8 @@ body {
 }
 
 .modal {
-  width: 408px;
+  width: 394px;
+  /* width: 408px; */
   min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
