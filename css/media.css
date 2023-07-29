@@ -11,6 +11,13 @@
   }
 }
 
+@media (min-width: 320px) and (max-width: 428px) {
+  .header-menu,
+  .header-address {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
