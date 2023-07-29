@@ -443,9 +443,8 @@ body {
   justify-content: center;
 }
 .team-socials-item {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 .team-socials-link {
   width: 100%;
@@ -817,7 +816,7 @@ body {
 }
 
 .modal {
-  width: 394px;
+  width: 392px;
   /* width: 408px; */
   min-height: 584px;
   background-color: #fcfcfc;

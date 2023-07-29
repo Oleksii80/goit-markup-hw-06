@@ -48,7 +48,7 @@
     border-radius: 2px;
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: -16px;
     align-items: center;
     background-color: #404bbf;
   }
@@ -173,8 +173,8 @@
   }
 
   .apps {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .apps-button-list {
@@ -214,6 +214,9 @@
     display: flex;
     gap: 40px;
     flex-direction: row;
+  }
+  .current::after {
+    bottom: -8px;
   }
   .hero {
     padding-top: 188px;
@@ -309,6 +312,10 @@
   }
   .subscribe {
     margin-left: 80px;
+  }
+  .apps {
+    padding-top: 108px;
+    padding-bottom: 72px;
   }
   .form {
     gap: 24px;
